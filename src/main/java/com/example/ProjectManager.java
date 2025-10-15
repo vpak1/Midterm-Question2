@@ -1,6 +1,7 @@
 package com.example;
 
 public class ProjectManager {
+    // calculates discount using original price
     public static double calculateDiscount(double originalPrice, double discountPercent) {
        if (originalPrice <= 0 || discountPercent < 0 || discountPercent > 100) {
            throw new IllegalArgumentException("Invalid input values.");
